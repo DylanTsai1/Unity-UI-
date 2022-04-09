@@ -15,4 +15,8 @@ public class VariedadContraseña : MonoBehaviour
     {
         
     }
+
+    public void validarContrasenia()
+    
+        { }
 }
