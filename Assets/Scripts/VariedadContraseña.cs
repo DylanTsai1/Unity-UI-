@@ -7,7 +7,7 @@ public class VariedadContraseña : MonoBehaviour
 {
     string contraseniaCorrecta;
     string contraseniaUsuario;
-    Text ingresoUsuario;    
+    public Text ingresoUsuario;    
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +24,18 @@ public class VariedadContraseña : MonoBehaviour
     }
 
     public void validarContrasenia()
-    
-        { }
+    {
+
+        contraseniaUsuario = ingresoUsuario.text;
+        if (contraseniaUsuario == contraseniaCorrecta)
+        {
+            Debug.Log("Bienvenido");
+        }
+        else
+        {
+            Debug.Log("Contraseña incorrecta");
+
+        }
+
+    }
 }

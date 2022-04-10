@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dddbbe5eb092bba4884b7fc6e3bed241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ingresoUsuario: {fileID: 621314821}
 --- !u!4 &76971876
 Transform:
   m_ObjectHideFlags: 0
@@ -267,7 +268,7 @@ GameObject:
   - component: {fileID: 621314822}
   - component: {fileID: 621314821}
   m_Layer: 5
-  m_Name: Input_contraUser
+  m_Name: label_contraUser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -992,7 +993,7 @@ GameObject:
   - component: {fileID: 2098329404}
   - component: {fileID: 2098329403}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: "Input_contrase\xF1a"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
